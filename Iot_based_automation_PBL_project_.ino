@@ -12,9 +12,9 @@
  * Define Constants
  ****************************************/
 
-#define TOKEN "A1E-jnfnWZ1lmLu52NyG3AHy8sf58xGGhoKDGOiiWQQoA6hibAmPr1XzVDMd" // Your Ubidots TOKEN
-#define WIFINAME "Redmi 4" //Your SSID
-#define WIFIPASS "qazwsxedc" // Your Wifi Pass
+#define TOKEN "" // Your Ubidots TOKEN
+#define WIFINAME "" //Your SSID
+#define WIFIPASS "" // Your Wifi Pass
 int sec=16;
 float sensor=A0;
 float gas_value;
@@ -23,11 +23,11 @@ int echoPin = 5;
 int led1=15;
 int led2=12;
 float duration, distance;
-char auth[] = "aaa99c83ee1843c79bb471d4ffafdd27";
+char auth[] = "";
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Redmi 4";
-char pass[] = "qazwsxedc";
+char ssid[] = "";
+char pass[] = "";
 WidgetMap myMap(V1);
 
 Ubidots client(TOKEN);
